@@ -7,15 +7,15 @@ function ForceGraph({
   nodeGroup, // given d in nodes, returns an (ordinal) value for color
   nodeGroups, // an array of ordinal values representing the node groups
   nodeTitle, // given d in nodes, a title string
-  nodeFill = "currentColor", // node stroke fill (if not using a group color encoding)
-  nodeStroke = "red", // node stroke color
+  nodeFill = "#de3f00ff", // node stroke fill (if not using a group color encoding)
+  nodeStroke = "#ccc", // node stroke color
   nodeStrokeWidth = 1.5, // node stroke width, in pixels
   nodeStrokeOpacity = 1, // node stroke opacity
   nodeRadius = 5, // node radius, in pixels
   nodeStrength = -9,
   linkSource = ({source}) => source, // given d in links, returns a node identifier string
   linkTarget = ({target}) => target, // given d in links, returns a node identifier string
-  linkStroke = "#999", // link stroke color
+  linkStroke = "#1466e1ff", // link stroke color
   linkStrokeOpacity = 0.6, // link stroke opacity
   linkStrokeWidth = 1.5, // given d in links, returns a stroke width in pixels
   linkStrokeLinecap = "round", // link stroke linecap
